@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px
+}
+
+.submit, .message {
+    color: white;
+    background-color: rgb(100, 226, 100);
+    padding: 4px;
+    border-radius: 3px;
+}
+

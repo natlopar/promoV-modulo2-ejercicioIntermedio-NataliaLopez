@@ -6,8 +6,20 @@
     <title>Piedra, papel o tijera</title>
     <link rel="stylesheet" href="./scss/main.scss" />
   </head>
-  <body>
-    
+  <body class="body">
+    <h1>Juego Piedra, Papel y Tijera</h1>
+    <h2>Introduce aquí tu jugada:</h2>
+    <div>
+      <select class="options js-options">
+        <option value="" disabled selected>Seleccione su jugada</option>
+        <option value="piedra">Piedra</option>
+        <option value="papel">Papel</option>
+        <option value="tijera">Tijera</option>
+      </select>
+      <input type="submit" value="Jugar" class="submit js-submit" />
+    </div>
+
+    <p class="message js-msg">Vamos a Jugar!</p>
     <script src="./js/main.js"></script>
   </body>
 </html>
