@@ -1,2 +1,2 @@
-'use strict';
-
+const r=document.querySelector(".js-options"),s=document.querySelector(".js-submit"),t=document.querySelector(".js-msg");document.querySelector(".js-playerCount");document.querySelector(".js-computerCount");function l(o){return Math.ceil(Math.random()*o)}let e="";const c=()=>{const o=l(9);console.log(o),o<=3?e="piedra":o>=7?e="papel":e="tijera",console.log(e)};function a(o){const n=r.value;console.log(n),c(),console.log(e),n===e?t.innerHTML="Empate":n==="piedra"&&e==="tijera"||n==="papel"&&e==="piedra"||n==="tijera"&&e==="papel"?t.innerHTML="¡Has ganado!":t.innerHTML="¡Has perdido!"}s.addEventListener("click",a);
+//# sourceMappingURL=main.js.map
